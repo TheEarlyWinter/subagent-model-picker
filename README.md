@@ -1,4 +1,20 @@
-# 子代理模型选择
+<div align="center">
+
+# 🎯 Subagent Model Picker
+
+<p align="center">
+  <b>HanaAgent / OpenHanako 子代理模型选择、智能分流与拦截调度插件</b>
+</p>
+
+[![HanaAgent Plugin](https://img.shields.io/badge/HanaAgent-Plugin-E879F9?style=flat-square&logo=probot&logoColor=white)](https://github.com/liliMozi/openhanako)
+[![JavaScript](https://img.shields.io/badge/Language-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](LICENSE)
+
+</div>
+
+---
+
+## 📖 简介
 
 一个 HanaAgent 全权插件。它会在内置 `subagent` 工具执行前检查模型参数：没有显式 `provider/id` 的派发会被拦截。配套 skill 会先读取模型策略，再带着准确模型派出子代理。
 
